@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Test</title>
-</head>
-
+<html>
 <body>
- 
-    <div id="target">
-        <p>This is the target div</p>
-    </div>
-    <script>
-        const div =document.getElementById('target');
 
-        const txt=prompt("input");
-        const oldPara=document.getElementsByTagName('p')[0];
-        const txtNode=document.createTextNode(txt);
-        const para=document.createElement('p')
-        para.appendChild(txtNode);
-        div.insertBefore(para,oldPara);
-    </script>
+<h1>onclick 事件</h1>
+
+<div id="container">
+  <p id="display"> 0</p>
+
+  <button onclick="plusOne()">add</button>
+</div>
+</script>
+<script src="script.js"></script>
 </body>
 </html>
