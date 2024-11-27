@@ -1,0 +1,11 @@
+{
+    
+    "manifest_version":3,
+    "name":"hello",
+    "version":"1.0",
+
+    "description":"My first V3 extension",
+    "action":{
+        "default_popup": "hi.html"
+    }
+}
