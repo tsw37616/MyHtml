@@ -1,0 +1,7 @@
+{
+    "manifest_version":3,
+    "name":"dev tool",
+    "version":"1.0",
+    "description":"This is a development tool",
+    "development_page":"dev_tool.html"
+}
